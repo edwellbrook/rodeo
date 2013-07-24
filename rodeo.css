@@ -1,0 +1,346 @@
+/*
+
+	Copyright 2013 Ed Wellbrook <edwellbrook@gmail.com>
+	Version 0.0.2
+
+*/
+
+#left-column {
+margin-top:20px!important;
+}
+
+#left-column .stream-config {
+background:none!important;
+border:none!important;
+border-radius:0!important;
+padding:20px 0 0!important;
+}
+
+#left-column .stream-config #search_term {
+background-color:white!important;
+border:1px solid rgba(0,0,0,0.25)!important;
+border-radius:3px!important;
+display:block!important;
+margin:0!important;
+padding:8px 8px 8px 30px !important;
+width:130px!important;
+}
+
+#left-column .stream-config center a,#right-column .add_box center a {
+background-color:#e1883a!important;
+border:none!important;
+border-radius:3px!important;
+color:white!important;
+display:block!important;
+font-size:14px!important;
+font-weight:bold!important;
+margin-top:20px!important;
+padding:8px 10px!important;
+}
+
+#left-column .stream-config center a:hover,#right-column .add_box center a:hover,#right-column .add_box form input[type="submit"]:hover {
+background-color:#c56110!important;
+}
+
+#left-column .stream-config form {
+height:32px!important;
+}
+
+#left-column .stream-config form center {
+display:block!important;
+height:16px!important;
+left:8px;
+overflow:hidden!important;
+padding:0!important;
+position:relative;
+top:-23px;
+width:16px!important;
+}
+
+#left-column .stream-config form center input {
+background:none!important;
+background-image:url(assets/search.png)!important;
+background-position:1px 1px!important;
+background-repeat:no-repeat!important;
+border:none!important;
+cursor:pointer!important;
+display:block!important;
+height:16px!important;
+margin:0!important;
+padding:0!important;
+text-align:left!important;
+text-indent:-9999px!important;
+width:16px!important;
+}
+
+#left-column .stream-config h4,#right-column .stream-config h4 a {
+color:rgba(0,0,0,0.5)!important;
+font-size:13px!important;
+text-transform:uppercase!important;
+}
+
+#left-column .stream-config p {
+font-size:16px!important;
+padding-left:10px!important;
+}
+
+#left-column .stream-config p a {
+background-image:url(assets/chevron.png)!important;
+background-position:right center!important;
+background-repeat:no-repeat!important;
+border-bottom:1px solid rgba(0,0,0,0.05)!important;
+color:rgba(0,0,0,0.9)!important;
+display:inline-block!important;
+margin-bottom:5px!important;
+padding:2px 0 5px!important;
+width:100%!important;
+}
+
+#right-column .add_box {
+border:none!important;
+border-bottom:1px solid rgba(0,0,0,0.15)!important;
+border-radius:0!important;
+box-shadow:0 1px 0 rgba(0,0,0,0.02)!important;
+padding-bottom:20px!important;
+}
+
+#right-column .add_box center {
+text-align:0;
+}
+
+#right-column .add_box center a {
+text-align:center!important;
+width:200px!important;
+}
+
+#right-column .add_box form #feed_url,#right-column .stream-config input,#right-column form td input {
+background-color:white!important;
+border:1px solid rgba(0,0,0,0.25)!important;
+border-radius:3px!important;
+display:inline-block!important;
+margin:0!important;
+padding:9px 8px!important;
+width:360px!important;
+}
+
+#right-column .add_box form input[type="submit"],#right-column .stream-config input[type="submit"],#right-column form td input[type="submit"] {
+background-color:#e1883a!important;
+border:none!important;
+border-radius:3px!important;
+color:white!important;
+cursor:pointer;
+display:inline-block!important;
+font-family:inherit;
+font-size:14px!important;
+font-weight:bold!important;
+margin-top:20px!important;
+padding:8px!important;
+width:120px!important;
+}
+
+#right-column .add_box form input[value="Import OPML File"] {
+width:220px!important;
+}
+
+#right-column .stream-config {
+background:none!important;
+border:none!important;
+border-bottom:1px solid rgba(0,0,0,0.15)!important;
+border-radius:0!important;
+padding-bottom:20px!important;
+}
+
+#right-column .stream-config b {
+font-size:14px!important;
+font-weight:normal!important;
+}
+
+#right-column .stream-config h4 {
+margin-bottom:10px!important;
+}
+
+#right-column .stream-config p {
+padding-top:20px!important;
+}
+
+#right-column .stream-config th {
+font-size:13px!important;
+padding-right:20px!important;
+}
+
+#right-column > a,#right-column a[href*="/settings/logout"] {
+background-color:#de8925!important;
+border-radius:3px!important;
+color:white!important;
+display:block!important;
+font-size:12px!important;
+font-weight:bold!important;
+padding:10px!important;
+text-align:center!important;
+width:180px!important;
+}
+
+#right-column > a[href="/feeds/unsubscribe_all"] {
+background-color:#cf402d!important;
+margin-top:-30px!important;
+}
+
+#right-column a[href*="/settings/logout"] {
+display:inline-block!important;
+margin-right:20px!important;
+width:200px!important;
+}
+
+#right-column p {
+font-size:14px!important;
+}
+
+.banner {
+margin-top:0!important;
+}
+
+.content {
+margin-bottom:40px!important;
+}
+
+.edit-button a,.edit-button-bottom a {
+color:rgba(0,0,0,0.9)!important;
+font-size:14px!important;
+font-weight:bold!important;
+}
+
+.edit-button-bottom {
+margin:20px 0!important;
+}
+
+.feed_setup {
+border-bottom:1px solid rgba(0,0,0,0.1)!important;
+}
+
+.feed_setup > a {
+background-color:#cf402d!important;
+border-radius:3px!important;
+color:white!important;
+display:block!important;
+font-size:12px!important;
+font-weight:bold!important;
+margin:10px 0!important;
+padding:10px!important;
+text-align:center!important;
+width:80px!important;
+}
+
+.feed_setup b a {
+color:black!important;
+}
+
+.footer center a {
+color:rgba(0,0,0,0.8)!important;
+}
+
+.import-panels {
+background:none!important;
+border:none!important;
+}
+
+.regular_link,#left-column > a {
+color:rgba(0,0,0,0.9)!important;
+font-size:14px!important;
+}
+
+.small-url a {
+font-size:14px!important;
+font-variant:normal!important;
+text-transform:lowercase!important;
+}
+
+.stream-item-subtitle a,.stream-item-subtitle .stream_item-time {
+color:rgba(0,0,0,0.65)!important;
+display:inline-block!important;
+font-size:12px!important;
+font-variant:none!important;
+margin-top:10px!important;
+text-transform:uppercase!important;
+}
+
+.stream_item {
+background:none!important;
+border:none!important;
+border-bottom:1px solid rgba(0,0,0,0.1)!important;
+border-radius:0!important;
+margin:0!important;
+padding:10px!important;
+}
+
+.stream_item .stream_item-link {
+height:16px!important;
+margin:2px 0 2px 4px !important;
+width:16px!important;
+}
+
+.stream_item .stream_item-title-text {
+text-overflow:ellipsis;
+}
+
+.stream_item-link img {
+display:block!important;
+height:16px!important;
+opacity:0.35!important;
+width:16px!important;
+}
+
+.stream_item-link img:hover {
+opacity:0.9!important;
+}
+
+.stream_item_body {
+border-radius:0!important;
+margin-top:20px!important;
+padding-top:0!important;
+}
+
+::selection {
+background:#fff9e6;
+color:#997649;
+}
+
+a {
+color:#1b5fa5!important;
+text-decoration:none!important;
+}
+
+a.bookmarklet {
+margin-left:0!important;
+}
+
+p a {
+border-bottom:1px dotted #1b5fa5!important;
+}
+
+.stream_item-link img[alt="Box_expand@2x"] {
+content:url(assets/external.png)!important;
+}
+
+.stream_item-link img[alt="Sendtopocket@2x"] {
+content:url(assets/pocket.png)!important;
+}
+
+.stream_item-link img[src*="check@2x"] {
+content:url(assets/tick.png)!important;
+}
+
+.stream_item-link img[src*="empty_star@2x"] {
+content:url(assets/star_empty.png)!important;
+}
+
+.stream_item-link img[src*="full_star@2x"] {
+content:url(assets/star_full.png)!important;
+}
+
+.stream_item-title[style*="font-weight:600;"] .stream_item-title-text {
+background-image:url(assets/marker.png)!important;
+background-position:8px 8px!important;
+background-repeat:no-repeat!important;
+background-size:10px!important;
+padding-left:30px!important;
+}
