@@ -16,11 +16,11 @@ The Original Rodeo is available here:
 [https://github.com/edwellbrook/Rodeo/releases](https://github.com/edwellbrook/Rodeo/releases)
 
 ##Little Missing Details
-*Checkmark button
-*Instapaper button
-*Pinboard button
-*Update read settings button
-*Select All/Select None stream options links
+-Checkmark button
+-Instapaper button
+-Pinboard button
+-Update read settings button
+-Select All/Select None stream options links
 
 ##License
 Rodeo is MIT Licensed.
