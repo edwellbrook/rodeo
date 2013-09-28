@@ -21,6 +21,7 @@ The Original Rodeo is available here:
 - Pinboard button
 - Update read settings button
 - Select All/Select None stream options links
+- Matching Feed Wrangler Banner with the blue app icon.
 
 ##License
 Rodeo is MIT Licensed.
