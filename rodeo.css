@@ -89,7 +89,7 @@ background-image:url(assets/chevron.png)!important;
 background-position:right center!important;
 background-repeat:no-repeat!important;
 border-bottom:1px solid rgba(0,0,0,0.05)!important;
-color:rgba(0,27,95,165)!important;
+color:rgba(27,95,165)!important;
 display:inline-block!important;
 margin-bottom:5px!important;
 padding:2px 0 5px!important;
@@ -204,7 +204,7 @@ margin-bottom:40px!important;
 }
 
 .edit-button a,.edit-button-bottom a {
-color:rgba(0,27,95,165)!important;
+color:rgba(27,95,165)!important;
 font-size:14px!important;
 font-weight:bold!important;
 }
@@ -244,7 +244,7 @@ border:none!important;
 }
 
 .regular_link,#left-column > a {
-color:rgba(0,27,95,165)!important;
+color:rgba(27,95,165)!important;
 font-size:14px!important;
 }
 
