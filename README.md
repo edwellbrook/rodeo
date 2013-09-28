@@ -15,7 +15,7 @@ If you want to take a look at the original Rodeo, you can find it here: [https:/
 Installing Rodeo is really easy. You can do so by installing either the Safari or Google Chrome extension from the releases section (NOTE: Chrome users have to drag the extension into the extension manager `chrome://extensions/`):
 
 Download Rodeo Blue from here (currently only the Chrome extension is ready, Safari needs to be packaged):
-[https://github.com/edwellbrook/Rodeo/releases](https://github.com/edwellbrook/Rodeo/releases)
+[https://github.com/slsrepo/Rodeo-Blue/releases](https://github.com/slsrepo/Rodeo-Blue/releases)
 
 ##Little Missing Details
 These details are missing because I still didn't make them. If you don't want to wait, you can fork this project and send a Pull Request, otherwise, they will be implemented later when I make them. 
