@@ -9,7 +9,7 @@ Rodeo is a Chrome/Safari extension made by [Ed Wellbrook](http://edwellbrook.com
 Unfortunately, Feed Wrangler's design wasn't as good as some people would like from a paid service, so Rodeo was made to improve that.
 
 ##How is this fork different than the original Rodeo?
-This fork is a recolored version of Rodeo to better fit in with Feed Wrangler. Feed Wrangler uses Light Blue as it's main color both on the main site and the iOS apps, and the original Rodeo uses Orange and Black. This fork changes the look of the Rodeo to use Light Blue.
+This fork is a recolored version of Rodeo to better fit in with Feed Wrangler. Feed Wrangler uses Blue as it's main color both on the main site and the iOS apps, and the original Rodeo uses Orange and Black. This fork changes the look of the Rodeo to use Blue colors.
 
 If you want to take a look at the original Rodeo, you can find it here: [https://github.com/edwellbrook/Rodeo](https://github.com/edwellbrook/Rodeo)
 ##How Do I Install Rodeo?
@@ -25,6 +25,7 @@ The Original Rodeo is available for download here:
 - Update read settings button
 - Select All/Select None stream options links
 - Matching Feed Wrangler Banner with the blue app icon.
+- Packaged Safari Extension
 
 ##License
 Rodeo is MIT Licensed.
