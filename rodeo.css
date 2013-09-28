@@ -27,7 +27,7 @@ width:130px!important;
 }
 
 #left-column .stream-config center a,#right-column .add_box center a {
-background-color:#e1883a!important;
+background-color:#1c80b1!important;
 border:none!important;
 border-radius:3px!important;
 color:white!important;
@@ -39,7 +39,7 @@ padding:8px 10px!important;
 }
 
 #left-column .stream-config center a:hover,#right-column .add_box center a:hover,#right-column .add_box form input[type="submit"]:hover {
-background-color:#c56110!important;
+background-color:#1b5fa5!important;
 }
 
 #left-column .stream-config form {
@@ -59,7 +59,7 @@ width:16px!important;
 
 #left-column .stream-config form center input {
 background:none!important;
-background-image:url(assets/search.png)!important;
+background-image:url(chrome-extension://__MSG_@@extension_id__/assets/search.png)!important;
 background-position:1px 1px!important;
 background-repeat:no-repeat!important;
 border:none!important;
@@ -85,11 +85,11 @@ padding-left:10px!important;
 }
 
 #left-column .stream-config p a {
-background-image:url(assets/chevron.png)!important;
+background-image:url(chrome-extension://__MSG_@@extension_id__/assets/chevron.png)!important;
 background-position:right center!important;
 background-repeat:no-repeat!important;
 border-bottom:1px solid rgba(0,0,0,0.05)!important;
-color:rgba(0,0,0,0.9)!important;
+color:rgba(27,95,165)!important;
 display:inline-block!important;
 margin-bottom:5px!important;
 padding:2px 0 5px!important;
@@ -124,7 +124,7 @@ width:360px!important;
 }
 
 #right-column .add_box form input[type="submit"],#right-column .stream-config input[type="submit"],#right-column form td input[type="submit"] {
-background-color:#e1883a!important;
+background-color:#1c80b1!important;
 border:none!important;
 border-radius:3px!important;
 color:white!important;
@@ -169,7 +169,7 @@ padding-right:20px!important;
 }
 
 #right-column > a,#right-column a[href*="/settings/logout"] {
-background-color:#de8925!important;
+background-color:#1c80b1!important;
 border-radius:3px!important;
 color:white!important;
 display:block!important;
@@ -204,7 +204,7 @@ margin-bottom:40px!important;
 }
 
 .edit-button a,.edit-button-bottom a {
-color:rgba(0,0,0,0.9)!important;
+color:rgba(27,95,165)!important;
 font-size:14px!important;
 font-weight:bold!important;
 }
@@ -244,7 +244,7 @@ border:none!important;
 }
 
 .regular_link,#left-column > a {
-color:rgba(0,0,0,0.9)!important;
+color:rgba(27,95,165)!important;
 font-size:14px!important;
 }
 
@@ -300,8 +300,8 @@ padding-top:0!important;
 }
 
 ::selection {
-background:#fff9e6;
-color:#997649;
+background:#e3f1ef;
+color:#004d7d;
 }
 
 a {
@@ -318,27 +318,27 @@ border-bottom:1px dotted #1b5fa5!important;
 }
 
 .stream_item-link img[alt="Box_expand@2x"] {
-content:url(assets/external.png)!important;
+content:url(chrome-extension://__MSG_@@extension_id__/assets/external.png)!important;
 }
 
 .stream_item-link img[alt="Sendtopocket@2x"] {
-content:url(assets/pocket.png)!important;
+content:url(chrome-extension://__MSG_@@extension_id__/assets/pocket.png)!important;
 }
 
 .stream_item-link img[src*="check@2x"] {
-content:url(assets/tick.png)!important;
+content:url(chrome-extension://__MSG_@@extension_id__/assets/tick.png)!important;
 }
 
 .stream_item-link img[src*="empty_star@2x"] {
-content:url(assets/star_empty.png)!important;
+content:url(chrome-extension://__MSG_@@extension_id__/assets/star_empty.png)!important;
 }
 
 .stream_item-link img[src*="full_star@2x"] {
-content:url(assets/star_full.png)!important;
+content:url(chrome-extension://__MSG_@@extension_id__/assets/star_full.png)!important;
 }
 
 .stream_item-title[style*="font-weight:600;"] .stream_item-title-text {
-background-image:url(assets/marker.png)!important;
+background-image:url(chrome-extension://__MSG_@@extension_id__/assets/marker.png)!important;
 background-position:8px 8px!important;
 background-repeat:no-repeat!important;
 background-size:10px!important;
